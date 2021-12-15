@@ -20,6 +20,10 @@ nav .nav-link .nav-link:hover .logo {
   padding-left: 1rem;
 }
 
+.boton_hamburguesa {
+  background-color: white;
+}
+
 body {
   padding-top: 5rem;
 }
