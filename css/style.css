@@ -4,24 +4,23 @@
   box-sizing: border-box;
 }
 
-nav {
+header nav {
   background: black;
 }
-nav .nav-link {
+header nav .boton_hamburguesa {
+  background-color: white;
+}
+header nav .nav-link {
   color: #d8ff32 !important;
   text-transform: uppercase !important;
   text-decoration: none !important;
 }
-nav .nav-link .nav-link:hover {
+header nav .nav-link .nav-link:hover {
   color: #d8ff32;
   box-shadow: 0px 2px 0px #d8ff32;
 }
-nav .nav-link .nav-link:hover .logo {
+header nav .nav-link .nav-link:hover .logo {
   padding-left: 1rem;
-}
-
-.boton_hamburguesa {
-  background-color: white;
 }
 
 body {
